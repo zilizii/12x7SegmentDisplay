@@ -1,0 +1,24 @@
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 394:Plugin executed on: 'win32'
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 395:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 396:KiCad build version: (6.0.0)
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 397:Plugin version: 1.2.7
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 398:Frame repr: <wx._core.Frame object at 0x000001BE4134E550>
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R2 on root level
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+05-02 20:13:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+05-02 20:13:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 572:Reference designator is: U
+05-02 20:13:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Reference number is: 3
+05-02 20:13:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 605:Sorted and filtered list:
+['U1', 'U2', 'U3', 'U4', 'U5', 'U6', 'U7', 'U8', 'U9', 'U10', 'U11', 'U12', 'U13', 'U14', 'U15']
+05-02 20:13:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 643:Footprints to place:
+['U9']
+05-02 20:13:56 com_github_MitjaNemec_PlaceFootprints.place_footprints 337:Starting placing with linear layout
+05-02 20:13:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 685:Fatal error when executing place footprints
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\KiCad\6.0\3rdparty\plugins\com_github_MitjaNemec_PlaceFootprints\action_place_footprints.py", line 680, in Run
+    placer.place_linear(footprints_to_place, ref_fp_ref, step_x, step_y, step, rotation,
+  File "C:\Users\Dell\Documents\KiCad\6.0\3rdparty\plugins\com_github_MitjaNemec_PlaceFootprints\place_footprints.py", line 347, in place_linear
+    ref_fp_index = footprints.index(ref_fp)
+ValueError: Footprint(ref='U3', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'std::deque< FOOTPRINT * >::value_type' at 0x000001BE412DB1E0> >, fp_id='ADACC58A-CF57-41C8-8099-C2D7655EAC31', sheet_id=['LED_Display_Module'], filename=['LED_Display_Module.kicad_sch']) is not in list
