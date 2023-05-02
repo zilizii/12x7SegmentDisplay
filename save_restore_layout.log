@@ -1,0 +1,28 @@
+05-02 20:18:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 172:Plugin executed on: 'win32'
+05-02 20:18:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 173:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+05-02 20:18:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 174:KiCad build version: (6.0.0)
+05-02 20:18:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 175:Plugin version: 1.1.11
+05-02 20:18:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 176:Frame repr: <wx._core.Frame object at 0x000001BE415360D0>
+05-02 20:18:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 194:Anchor footprint reference is 'U12'
+05-02 20:19:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 274:Restore layout chosen
+05-02 20:19:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 75:Initialization start
+05-02 20:19:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 77:Initialization done Group name:
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 654:Getting board info
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 657:Get project schematics and layout data
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 663:Loading saved design
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 685:Source level is:['LED_Display_Module.kicad_sch']
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 690:Destination footprint is:'U12'
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 691:Destination levels available are:['LED_Display_Module.kicad_sch']
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 702:Destination level is:['LED_Display_Module.kicad_sch']
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 707:All sch files required are: ['LED_Display_Module.kicad_sch']
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 709:Getting current schematics hash
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 720:Source hash is:'d4db4c04da615ee35421d266364effa3'
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 721:Destination hash is: 'd4db4c04da615ee35421d266364effa3'
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 738:Get layout data from saved board
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 886:Replicating footprints
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1047:Replicating tracks
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1100:Replicating zones
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1164:Replicating text
+05-02 20:19:03 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1198:Replicating drawings
